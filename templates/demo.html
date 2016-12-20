@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="/static/demo.css">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="/static/demo.js"></script>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrG7t4ut71GwOCSYXUJryP5HOPWZJWAMs"></script>
+	</head>
+	<body>
+		<div id="container">
+			<h1>Road Trip Advisor</h1>
+			<p>Please enter a starting point and an ending point, then submit to see your recommended road trip.</p></br>
+			<table>
+				<tr><td>From</td><td><input id="point_a" type="text" value="Chicago, IL"></td></tr>
+				<tr><td>To</td><td><input id="point_b" type="text" value="Champaign, IL"></td></tr>
+			</table>
+			<button onClick="get_trip()">Submit</button>
+			<div id="gmaps_container">
+				<p>You can't have a (very good) road trip if you don't start or stop anywhere</p>
+				<!-- https://developers.google.com/maps/documentation/embed/ -->
+
+				<!-- Example API Request URL -->
+				<!-- https://www.google.com/maps/embed/v1/directions
+					  ?key=AIzaSyDrG7t4ut71GwOCSYXUJryP5HOPWZJWAMs
+					  &origin=Chicago
+					  &destination=Pittsburgh
+					  &avoid=tolls|highways -->
+				
+				<!-- Example iframe Code -->
+				<!-- <iframe
+					width="100%"
+					height="100%"
+					frameborder="0" style="border:0"
+					src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyDrG7t4ut71GwOCSYXUJryP5HOPWZJWAMs&origin=Chicago&destination=Pittsburgh&avoid=tolls|highways" allowfullscreen>
+				</iframe> -->
+			</div>
+			<div id="gmaps_markers">
+				<p>No markers</p>
+				<!-- https://developers.google.com/maps/documentation/embed/ -->
+
+				<!-- Example API Request URL -->
+				<!-- https://www.google.com/maps/embed/v1/directions
+					  ?key=AIzaSyDrG7t4ut71GwOCSYXUJryP5HOPWZJWAMs
+					  &origin=Chicago
+					  &destination=Pittsburgh
+					  &avoid=tolls|highways -->
+				
+				<!-- Example iframe Code -->
+				<!-- <iframe
+					width="100%"
+					height="100%"
+					frameborder="0" style="border:0"
+					src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyDrG7t4ut71GwOCSYXUJryP5HOPWZJWAMs&origin=Chicago&destination=Pittsburgh&avoid=tolls|highways" allowfullscreen>
+				</iframe> -->
+			</div>
+		</div>
+	</body>
+</html>

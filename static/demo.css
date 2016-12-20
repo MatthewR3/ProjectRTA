@@ -1,0 +1,110 @@
+@font-face {
+	font-family: Infinity;
+	src: url(infinity.ttf);
+}
+
+@font-face {
+	font-family: Fabrica;
+	src: url(fabrica.otf);
+}
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Fabrica", Arial, sans-serif;
+	color: #555;
+}
+
+#container {
+	margin: auto;
+	margin-top: 30px;
+	width: 80%;
+	text-align: center;
+}
+
+h1 {
+	margin-bottom: 0;
+	color: #7DABFF;
+	font-size: 50px;
+	font-family: "Infinity", Arial, sans-serif;
+}
+
+p {
+	display: inline-block;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+input {
+	display: inline-block;
+	margin-left: 10px;
+	padding-left: 10px;
+	border: 2px solid #7DABFF;
+	height: 30px;
+	line-height: 30px;
+	width: 90%;
+	font-size: 18px;
+}
+
+input:hover, input:active, input:focus {
+	border-color: #AAA;
+	outline: none;
+}
+
+table {
+	margin: auto;
+}
+
+table tr {
+	height: 50px;
+}
+
+table td {
+	text-align: left;
+	font-size: 18px;
+}
+
+button {
+	margin-top: 30px;
+	padding: 0;
+	width: 200px;
+	height: 40px;
+	background-color: white;
+	border: 2px solid #7DABFF;
+	border-radius: 5px;
+	font-family: "Fabrica", Arial, sans-serif;
+	font-size: 18px;
+	color: #555;
+}
+
+button:hover {
+	border-color: #4D8CFF;
+	cursor: pointer;
+}
+
+button:focus {
+	outline: none;
+}
+
+button:active {
+	background-color: #E0EBFF;
+}
+
+#gmaps_container, #gmaps_markers {
+	margin-top: 50px;
+	height: 500px;
+	width: 100%;
+	border: 2px solid #7DABFF;
+	margin-bottom: 50px;
+}
+
+#gmaps_container p, #gmaps_markers p {
+	margin-top: 160px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
