@@ -1,3 +1,11 @@
+Everything except this excerpt is original code from the 2016 spring academic semester. This project was a group project for the CS 196 class at UIUC. Notable group members are Cooper Lorsung and Andrew Holler. The application finds convenient bathroom and food stops along a path traveled over Google Maps by car. Code is purposely simplified in some places. Any code here is free to use as-is without any legal obligations.
+
+Note: we did use GitHub for hosting this code with version control, but the original repository was deleted and I only retained my copy. Therefore, all of the development process's git history is gone.
+
+-----
+
+
+
 Road Trip Advisor is gonna be dank
 
 
